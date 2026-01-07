@@ -1,0 +1,4 @@
+[
+  { "id": 1, "name": "Ramesh Kumar", "state": "Karnataka", "land": "4.5 acres", "crop": "Rice" },
+  { "id": 2, "name": "Suresh Patel", "state": "Gujarat", "land": "6 acres", "crop": "Cotton" }
+]

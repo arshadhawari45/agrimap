@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "name": "Rice",
+    "area": "1200 ha",
+    "state": "Karnataka",
+    "season": "Kharif",
+    "soil": "Clay, Loamy",
+    "water": "High",
+    "region": "South India"
+  },
+  {
+    "id": 2,
+    "name": "Wheat",
+    "area": "950 ha",
+    "state": "Punjab",
+    "season": "Rabi",
+    "soil": "Loamy, Clay",
+    "water": "Medium",
+    "region": "North India"
+  },
+  {
+    "id": 3,
+    "name": "Maize",
+    "area": "600 ha",
+    "state": "Madhya Pradesh",
+    "season": "Kharif",
+    "soil": "Loamy, Sandy",
+    "water": "Medium",
+    "region": "Central India"
+  },
+  {
+    "id": 4,
+    "name": "Cotton",
+    "area": "720 ha",
+    "state": "Gujarat",
+    "season": "Kharif",
+    "soil": "Black, Alluvial",
+    "water": "Medium",
+    "region": "Western India"
+  },
+  {
+    "id": 5,
+    "name": "Sugarcane",
+    "area": "850 ha",
+    "state": "Uttar Pradesh",
+    "season": "Perennial",
+    "soil": "Loamy, Clay",
+    "water": "High",
+    "region": "North India"
+  },
+  {
+    "id": 6,
+    "name": "Pulses",
+    "area": "400 ha",
+    "state": "Rajasthan",
+    "season": "Rabi",
+    "soil": "Sandy, Loamy",
+    "water": "Low",
+    "region": "Western India"
+  },
+  {
+    "id": 7,
+    "name": "Groundnut",
+    "area": "520 ha",
+    "state": "Andhra Pradesh",
+    "season": "Kharif",
+    "soil": "Sandy Loam",
+    "water": "Low to Medium",
+    "region": "South India"
+  },
+  {
+    "id": 8,
+    "name": "Soybean",
+    "area": "680 ha",
+    "state": "Maharashtra",
+    "season": "Kharif",
+    "soil": "Black, Loamy",
+    "water": "Medium",
+    "region": "Central India"
+  },
+  {
+    "id": 9,
+    "name": "Barley",
+    "area": "300 ha",
+    "state": "Haryana",
+    "season": "Rabi",
+    "soil": "Loamy",
+    "water": "Low",
+    "region": "North India"
+  },
+  {
+    "id": 10,
+    "name": "Jowar (Sorghum)",
+    "area": "450 ha",
+    "state": "Karnataka",
+    "season": "Kharif",
+    "soil": "Red, Loamy",
+    "water": "Low",
+    "region": "South India"
+  },
+  {
+    "id": 11,
+    "name": "Bajra (Pearl Millet)",
+    "area": "500 ha",
+    "state": "Rajasthan",
+    "season": "Kharif",
+    "soil": "Sandy",
+    "water": "Low",
+    "region": "Western India"
+  },
+  {
+    "id": 12,
+    "name": "Tea",
+    "area": "380 ha",
+    "state": "Assam",
+    "season": "Perennial",
+    "soil": "Acidic, Loamy",
+    "water": "High",
+    "region": "North-East India"
+  },
+  {
+    "id": 13,
+    "name": "Coffee",
+    "area": "260 ha",
+    "state": "Karnataka",
+    "season": "Perennial",
+    "soil": "Well-drained Loamy",
+    "water": "Medium",
+    "region": "South India"
+  },
+  {
+    "id": 14,
+    "name": "Rubber",
+    "area": "310 ha",
+    "state": "Kerala",
+    "season": "Perennial",
+    "soil": "Laterite, Loamy",
+    "water": "High",
+    "region": "South India"
+  },
+  {
+    "id": 15,
+    "name": "Mustard",
+    "area": "420 ha",
+    "state": "Rajasthan",
+    "season": "Rabi",
+    "soil": "Loamy, Sandy",
+    "water": "Low to Medium",
+    "region": "North India"
+  }
+]
