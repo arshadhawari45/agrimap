@@ -9,6 +9,10 @@ const PORT = process.env.PORT || 4000;
 app.use(cors());
 app.use(express.json());
 
+app.get("/", (req, res) => {
+  res.send("AgriMap Backend is running 🚀");
+});
+
 const dataDir = path.join(__dirname, "data");
 const cropsFile = path.join(dataDir, "crops.json");
 
