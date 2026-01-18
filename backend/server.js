@@ -4,7 +4,7 @@ const fs = require("fs");
 const path = require("path");
 
 const app = express();
-const PORT = 4000;
+const PORT = process.env.PORT || 4000;
 
 app.use(cors());
 app.use(express.json());
@@ -17,12 +17,13 @@ app.post("/api/login", (req, res) => {
   const { email } = req.body;
 
   if (email === "admin@agrimap.com") {
-    return res.json({ email, role: "admin" });
+    return res.json({ success: true, email, role: "admin" });
   }
   if (email === "user@agrimap.com") {
-    return res.json({ email, role: "user" });
+    return res.json({ success: true, email, role: "user" });
   }
-  return res.status(401).json({ message: "Invalid credentials" });
+
+  return res.status(401).json({ success: false, message: "Invalid credentials" });
 });
 
 /* ---------- HELPERS ---------- */
@@ -56,5 +57,5 @@ app.delete("/api/crops/:id", (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`✅ Backend running on http://localhost:${PORT}`);
+  console.log(`Backend running on port ${PORT}`);
 });
